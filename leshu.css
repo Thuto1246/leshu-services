@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0c74e3;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+#products {
+    background-color: #0854d8;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.product {
+    border: 1px solid #0854d8
+    padding: 1em;
+    width: 200px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0854d8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    border: 1px solid #0854d8;
+    border-radius: 4px;
+}
+
+form button {
+    align-self: start;
+}
